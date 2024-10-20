@@ -4,7 +4,7 @@ on:
   release:
     types: [created]
 env:
-  IMAGE_NAME: la_3_docker
+  IMAGE_NAME: lab2
 
 jobs:
   call_workflow_build_and_test:
